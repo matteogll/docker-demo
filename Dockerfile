@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 
 # Install dependencies
-RUN apt-get update -y
+RUN apt-get update
 RUN apt-get install -y git apache2
 
 # Create index.html
